@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Clone Repo') {
             steps {
-                git branch: 'main', url: 'https://github.com/yaminiarumugam/Mern-docker-compose.git'
+                git branch: 'main', url: 'https://github.com/yaminiarumugam/MERN-docker-compose.git'
             }
         }
 
